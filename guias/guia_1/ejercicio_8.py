@@ -9,8 +9,8 @@ msj_1 = "Generador de contraseña"
 print(msj_1)
 input("Presiona Enter para continuar ")
 
-mayusculas = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
-minusculas = "abcdefghijklmnopqrstuvwxyz"
+mayusculas = "ABCDEFGHIJKLMNÑOPQRSTUVWXYZ"
+minusculas = "abcdefghijklmnñopqrstuvwxyz"
 numeros = "0123456789"
 caracteres_especiales = "!@#$%^&*()_+-=[]}{|;:,.<>?`~"
 caracteres = [] # Guardo los caracteres en una lista para luego convertirlo en una cadena

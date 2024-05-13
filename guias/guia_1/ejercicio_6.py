@@ -23,9 +23,9 @@ caracter_especial = False
 if len(contraseña) >= 8:
     longitud = True
 for i in contraseña:
-    if i in "ABCDEFGHIJKLMNOPQRSTUVWXYZ": # También podría usarse i.isupper()
+    if i in "ABCDEFGHIJKLMNÑOPQRSTUVWXYZ": # También podría usarse i.isupper()
         mayuscula = True
-    elif i in "abcdefghijklmnopqrstuvwxyz": # i.islower()
+    elif i in "abcdefghijklmnñopqrstuvwxyz": # i.islower()
         minuscula = True
     elif i in "0123456789": # i.isdigit()
         numero = True
