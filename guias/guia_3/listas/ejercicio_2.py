@@ -3,9 +3,9 @@
 
 def min_max(lista: list) -> int:
     
-    lista.sort()
-    minimo = lista[0]
-    maximo = lista[len(lista)-1]
+    nueva_lista = sorted(lista)
+    minimo = nueva_lista[0]
+    maximo = nueva_lista[len(nueva_lista)-1]
 
     return minimo, maximo
 
