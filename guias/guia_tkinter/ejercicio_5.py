@@ -54,6 +54,7 @@ etiqueta_2.grid(row=1, column=0)
 etiqueta_3 = tk.Label(marco, text='Resultado', bg='#ffd000')
 etiqueta_3.grid(row=2, column=0)
 
+# Añadir validación a las entradas
 entrada_1 = tk.Entry(marco, validate="key", validatecommand=(validacion, '%P'))
 entrada_1.grid(row=0, column=1, padx=5)
 entrada_2 = tk.Entry(marco, validate="key", validatecommand=(validacion, '%P'))
